@@ -27,8 +27,8 @@ const PROJECTS = [
     tech: "React, Node, Express, MongoDB",
     description:
       "This site is built on the MERN stack. The backend is a RESTful API built with Node and Express that accesses a MongoDB database. The client side is built with React and functions as a single-page application. This app uses a user login system built with JWT tokens. People use this app to help build healthy habits that stick over time with daily tracking and graphical data representations to display progress. Users can add a new habit and track each time within a day they accomplish that goal!",
-    deployedLink: "https://xbox-tank-companion.herokuapp.com/",
-    githubLink: "https://github.com/Teffisk/tank-app",
+    deployedLink: "https://habits-track.herokuapp.com/",
+    githubLink: "https://github.com/Teffisk/habit-app-client",
     img: HabitsImg
   },
   {
@@ -36,10 +36,13 @@ const PROJECTS = [
     tech: "React, Node, Express, Sequelize, PostgreSQL",
     description:
       "This app creates a way for people to search and review for places in the Seattle area by dog friendliness! It uses Mapbox to allow users to fly around from location to location on a responsive map, and uses the Yelp API to find location, information, and reviews for thousands of businesses and other locations in the Seattle area. Users can then find reviews and ratings of dog friendliness to find the right spot to chill with their pup.",
-    deployedLink: "https://xbox-tank-companion.herokuapp.com/",
-    githubLink: "https://github.com/Teffisk/tank-app",
+    deployedLink: "https://neighborhood-woof.herokuapp.com/",
+    githubLink: "https://github.com/Teffisk/woof-client",
     img: WoofImg
   }
 ];
+
+const brandStatement =
+  "My name is Brad McKnight and I am a full stack software engineer with a professional background in merchandising. I am always looking to learn the next cool thing to take my developer skills to the next level. My merchandising background means I come with a customer-first perspective to any project.";
 
 export default PROJECTS;

@@ -6,9 +6,12 @@ class Home extends Component {
     return (
       <div className="home-container">
         <p className="brand-statement">
-          My name is Brad McKnight and I am a full stack software engineer etc.
+          I am a full stack developer who loves simple solutions for complex
+          problems that deliver real results to the customer.
         </p>
-        <Link to="/projects">See my projects</Link>
+        <Link to="/projects" className="see-my-projects">
+          See my projects
+        </Link>
       </div>
     );
   }

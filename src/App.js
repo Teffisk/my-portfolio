@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <div>
+          <div className="page-view">
             <header className="App-header">
               <nav>
                 <Header />

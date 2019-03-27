@@ -17,8 +17,13 @@ class Project extends Component {
         </div>
 
         <div className="project-links">
-          <button className="live-site-btn">Check out the site</button>
-          <button className="github-btn">See the code on Github</button>
+          <a className="live-site-btn" href={this.props.project.deployedLink}>
+            <i class="fa fa-laptop fa-3" aria-hidden="true" />
+          </a>
+
+          <a className="github-btn" href={this.props.project.githubLink}>
+            <i class="fab fa-github fa-lg" />
+          </a>
         </div>
       </div>
     );
