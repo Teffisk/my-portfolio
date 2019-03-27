@@ -11,7 +11,7 @@ ul {
 }
 
 .nav a {
-  color: blue;
+  color: #2e86c1;
   font-weight: 600;
   text-decoration: none;
   margin: 0 5vw;
@@ -65,10 +65,10 @@ ul {
 }
 
 .home-container a:hover {
-  text-shadow: 2px 2px blue;
+  text-shadow: 2px 2px #2e86c1;
 }
+
 .project-container {
-  margin: 0 auto;
   border: 2px solid black;
   margin: 20px;
   max-height: 60vh;
@@ -153,5 +153,49 @@ footer {
 }
 
 .link-list i:hover {
-  color: blue;
+  color: #2e86c1;
+}
+
+/* ------------------- Mobile CSS Settings ------------------------ */
+@media (max-width: 900px) {
+  .project-container {
+    margin: 2vh auto;
+    max-height: none;
+    border: none;
+  }
+
+  .project-title {
+    font-size: 24px;
+  }
+
+  .project-content {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .project-img-container {
+    min-width: 80%;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+
+  .project-img {
+    max-width: 80vw;
+    max-height: 40vh;
+  }
+
+  .link-list .fa-envelope,
+  .link-list .fa-github,
+  .link-list .fa-linkedin {
+    font-size: 4em;
+    margin: 10px auto;
+  }
+
+  .brand-statement {
+    font-size: 16px;
+    width: 90%;
+  }
 }
