@@ -157,7 +157,7 @@ footer {
 }
 
 /* ------------------- Mobile CSS Settings ------------------------ */
-@media (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .project-container {
     margin: 2vh auto;
     max-height: none;

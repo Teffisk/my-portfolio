@@ -7,7 +7,7 @@ class Header extends Component {
       <span>
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/connect">Connect</Link>
+        <Link to="/connect">About Me</Link>
       </span>
     );
     return (
