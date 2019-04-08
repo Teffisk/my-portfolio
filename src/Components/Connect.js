@@ -41,7 +41,7 @@ class Connect extends Component {
               <i className="fab fa-linkedin fa-lg" />
             </a>
           </li>
-          <a href="brad.mcknight91@gmail.com">
+          <a href="mailto:brad.mcknight91@gmail.com">
             <i className="fa fa-envelope" aria-hidden="true" />
           </a>
         </ul>
