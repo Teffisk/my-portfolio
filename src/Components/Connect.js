@@ -6,7 +6,7 @@ class Connect extends Component {
     return (
       <div>
         <img src={SnowyHike} className="profile-pic" />
-        <div className="brand-statement">
+        <div className="about-me">
           <p>
             My name is Brad McKnight and I am a full stack software engineer. I
             am always looking to learn the next cool thing to take my developer
@@ -30,7 +30,7 @@ class Connect extends Component {
             experience for the customer. It is a job all about overcoming
             challenges in business that eventually meet the needs of the end
             user. I am excited to bring this experience into my new career as a
-            develper.
+            developer.
           </p>
         </div>
         <ul className="link-list">

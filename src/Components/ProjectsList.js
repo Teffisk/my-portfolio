@@ -5,7 +5,7 @@ import PROJECTS from "../Static/Projects";
 class ProjectsList extends Component {
   render() {
     const Projects = PROJECTS.map(p => {
-      return <Project project={p} />;
+      return <Project project={p} className="project-list" />;
     });
     return <div>{Projects}</div>;
   }

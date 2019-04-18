@@ -11,23 +11,25 @@ ul {
 }
 
 .nav a {
-  color: #2e86c1;
+  /* color: #2e86c1; */
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   margin: 0 5vw;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.nav a:hover {
+  color: #2e86c1;
 }
 
-.see-my-projects {
-  text-decoration: none;
+.App {
+  padding-top: 10vh;
 }
 
 .App-header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
@@ -40,25 +42,27 @@ ul {
 
 .home-container {
   width: 100vw;
-  height: 100%;
-  padding: 25vh 0;
+  height: 40%;
+  padding: 23vh 0;
+  position: fixed;
   margin: 0 auto;
-  /* background-color: black; */
   background-image: url("./Images/Iceland.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .see-my-projects {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 200px;
 }
 
 .brand-statement {
-  font-size: 20px;
+  font-size: 32px;
   width: 60%;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .home-container a:visited {
@@ -67,7 +71,12 @@ ul {
 }
 
 .home-container a:hover {
-  text-shadow: 2px 2px #2e86c1;
+  /* text-shadow: 2px 2px #2e86c1; */
+  text-shadow: 2px 2px #fff;
+}
+
+.project-list {
+  margin-top: 10vh;
 }
 
 .project-container {
@@ -139,7 +148,13 @@ footer {
 }
 
 .page-view {
-  /* margin-bottom: 8vh; */
+  margin-bottom: 8vh;
+}
+
+ul.link-list {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .link-list .fa-envelope,
@@ -158,6 +173,13 @@ footer {
   color: #2e86c1;
 }
 
+.about-me {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
 .profile-pic {
   max-width: 80vw;
   max-height: 40vh;
@@ -167,6 +189,11 @@ footer {
 
 /* ------------------- Mobile CSS Settings ------------------------ */
 @media only screen and (max-width: 600px) {
+  .home-container {
+    background-size: auto;
+    background-position: center;
+  }
+
   .project-container {
     margin: 4vh auto;
     max-height: none;
@@ -205,6 +232,12 @@ footer {
 
   .brand-statement {
     font-size: 16px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .about-me {
+    font-size: 14px;
     width: 90%;
   }
 
