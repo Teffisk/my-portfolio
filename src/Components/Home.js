@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Iceland from "../Images/Iceland.jpg";
 
 class Home extends Component {
   render() {
